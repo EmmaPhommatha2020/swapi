@@ -1,0 +1,39 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  min-height: 200px;
+  margin: 40px 20px;
+  text-align: center;
+  font-family: arial;
+  border-radius: 5px;
+  list-style: none;
+  padding: 40px 20px;
+  display: inline-block;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 113%;
+  font-size: 18px;
+  margin-left: -20px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 10px;
+}
+
