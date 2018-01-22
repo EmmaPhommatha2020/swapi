@@ -36,4 +36,15 @@
 .info {
   margin-top: 10px;
 }
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+  font-family: sans-serif;
+  color: coral;
+}
+img {
+  height: 300px;
+}
 

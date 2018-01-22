@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Comments from './Comments';
-const Card = ({ results, getCharacter }) => {
+const Card = ({ results }) => {
 	return (
 		<React.Fragment>
 			{results.map(person =>

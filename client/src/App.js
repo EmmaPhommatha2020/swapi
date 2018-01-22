@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 import Card from './Card';
-// import Images from './Images';
+import bb8 from './bb8.jpeg';
 
 class App extends Component {
   state = { results: [], comments: [], comment: '' }
@@ -13,8 +13,8 @@ class App extends Component {
     const getPeople = () => {
       console.log('Get people just got called');
       axios.get('https://swapi.co/api/people')
-        // axios.get('http://localhost:3001/users')      
         .then(res => {
+          console.log('res-->', res);      
           const results = res.data.results
           this.setState({ results })
           console.log(results);
@@ -28,25 +28,26 @@ class App extends Component {
     getPeople();
   }
 
-  getCharacter = (url) => {
-    console.log(url);
-    axios.get(String(url))
-      .then(res => {
-        const results = res.data.results
-        console.log(results);
-      })
-      .catch(res => {
-        console.log(res);
-      })
-  }
+  // getCharacter = (url) => {
+  //   console.log(url);
+  //   axios.get(String(url))
+  //     .then(res => {
+  //       const results = res.data.results
+  //       console.log(results);
+  //     })
+  //     .catch(res => {
+  //       console.log(res);
+  //     })
+  // }
 
   render() {
     const { results, person, comments } = this.state;
     const { postComment, getCharacter } = this.props;
     return (
-      <div className="App">
+      <div className = "container">
+        <img src={bb8}/>
         <h1>Star Wars</h1>
-        <Card results={results} getCharacter={this.getCharacter} />
+        <Card results={results} />
       </div>
     );
   }
