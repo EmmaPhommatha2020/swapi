@@ -1,9 +1,14 @@
 
-let users = [{id:1,name: "Jenny", gender:"Feameal"},
-{di:2,name:"Emma",gender:"Feameal"},{id:3,name:"Noudda",gender:"Feameal"},
-{di:4,name:"Katty",gender:"Feameal"},{id:5,name:"Jack",gender:"Meal"},
-{di:6,name:"Don",gender:"Meal"},{di:7,name:"Tim",gender:"Meal"},
-{id:8,name:"Patrick",gender:"Meal"}];
+let users = [
+    {id:1, name: "Jenny", gender:"Feameal"},
+    {id:2, name:"Emma", gender:"Feameal"},
+    {id:3, name:"Noudda", gender:"Feameal"},
+    {id:4, name:"Katty", gender:"Feameal"},
+    {id:5, name:"Jack", gender:"Meal"},
+    {id:6, name:"Don", gender:"Meal"},
+    {di:7, name:"Tim", gender:"Meal"},
+    {id:8, name:"Patrick", gender:"Meal"}
+];
 
 let id = 9;
 module.exports = {
