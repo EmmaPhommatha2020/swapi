@@ -11,11 +11,6 @@
   display: inline-block;
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
 .button {
   border: none;
   outline: 0;
@@ -32,19 +27,17 @@
 .comments {
   margin-top: 20px;
 }
-
-.info {
-  margin-top: 10px;
-}
 .container {
   text-align: center;
 }
+
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-family: sans-serif;
   color: coral;
 }
+
 img {
-  height: 300px;
+  height: 250px;
 }
 
